@@ -1,3 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Roboto+Serif:opsz,wght@8..144,100;8..144,700&family=Roboto:wght@300;400;700;900&display=swap');
+
+*{
+    padding: 0%;
+    margin: 0%;
+    border: none;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 2500px;
+
+}
+
+
 body{
-    background-color: red;
+    font-family: roboto, sans-serif;
+    font-weight: 300;
 }
