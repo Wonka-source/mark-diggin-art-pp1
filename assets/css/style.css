@@ -101,11 +101,27 @@ h1 {
     max-width: 300px;
     margin-left: 10%;
     margin-right: 20px;
+    padding-right: 2%;
+    padding-top: 2%;
+    padding-bottom: 4%;
 
 }
 
-.about {
+/* .about {
     display:flexbox;
+} */
+
+.about-heading{
+    font-size: 170%;
+    text-align: center;
+    margin: 1%;
+    padding: 1%;
+    margin-bottom: 2%;
+}
+
+.paragraph{
+    font-size: 130%;
+    max-width: 70%;
 }
 
 
