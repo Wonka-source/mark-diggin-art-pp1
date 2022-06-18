@@ -100,3 +100,7 @@ h1,h2 {
     text-decoration: none;
     color: #3a3a3a;
 }
+
+.copyr-origin-contact > li {
+    padding-bottom: 1.35%;
+}
