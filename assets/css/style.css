@@ -76,3 +76,10 @@ h1,h2 {
 .active {
     border-block: 1px solid white;
 }
+
+/*footer*/
+
+.footer{
+    background-color: rgb(220,220,220);
+    border-top: black solid 0.5px;
+}
