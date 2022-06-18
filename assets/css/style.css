@@ -11,7 +11,24 @@
 }
 
 
+h1,h2 {
+font-family: roboto serif, sans-serif;
+text-transform: uppercase;
+color: white;
+}
+
 body{
     font-family: roboto, sans-serif;
     font-weight: 300;
+    color: #3a3a3a;
+}
+
+/* hero image*/
+
+.hero-home {
+    background: url(../images/layout/hero.jpg) no-repeat center center;
+    height: 35.7rem;
+    background-size: cover;
+    position: relative;
+
 }
