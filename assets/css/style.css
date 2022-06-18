@@ -21,14 +21,14 @@ body{
 /* hero image*/
 
 .hero-home {
-    background: url(../images/layout/hero.jpg) no-repeat center center;
+    background: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.5)), url(../images/layout/hero.jpg) no-repeat center center;
     height: 35.7rem;
     background-size: cover;
     /* position: relative; */
 }
 
 .hero-2{
-    background:url(../images/layout/h7.jpg); 
+    background:linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.5)), url(../images/layout/h7.jpg); 
     height:6.5rem;
     background-size: cover;
     /* position: relative; */
