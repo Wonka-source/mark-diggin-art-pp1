@@ -42,5 +42,12 @@ h1,h2 {
     margin-left: 10px;
     padding-left: 10px;
     letter-spacing: 4px;
+}
 
+.welcome-logo a{
+    color: white;
+}
+
+header{
+    background: #031355;
 }
