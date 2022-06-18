@@ -85,9 +85,11 @@ h1 {
     border-block: 1px solid white;
 }
 
+/*main section for each page*/
+
 .block{
     margin-top: 120px;
-    margin-bottom: 150px;
+    margin-bottom: 250px;
 }
 
 /*about page*/
