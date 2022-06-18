@@ -7,15 +7,10 @@
     margin-left: auto;
     margin-right: auto;
     max-width: 2500px;
-
 }
 
 
-h1,h2 {
-font-family: roboto serif, sans-serif;
-text-transform: uppercase;
-color: white;
-}
+
 
 body{
     font-family: roboto, sans-serif;
@@ -30,5 +25,22 @@ body{
     height: 35.7rem;
     background-size: cover;
     position: relative;
+}
+
+/*logo and nav bar*/
+
+h1,h2 {
+    font-family: roboto serif, sans-serif;
+    text-transform: uppercase;
+    color: black;
+}
+
+.welcome-logo{
+    position: sticky;
+    top: 90%;
+    font-size: 2em;
+    margin-left: 10px;
+    padding-left: 10px;
+    letter-spacing: 4px;
 
 }
