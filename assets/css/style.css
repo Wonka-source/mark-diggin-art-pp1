@@ -24,11 +24,14 @@ body{
     background: url(../images/layout/hero.jpg) no-repeat center center;
     height: 35.7rem;
     background-size: cover;
-    position: relative;
+    /* position: relative; */
 }
 
 .hero-2{
-    background:url(../images/layout/h7.jpg) 
+    background:url(../images/layout/h7.jpg); 
+    height:6.5rem;
+    background-size: cover;
+    /* position: relative; */
 }
 
 
@@ -38,7 +41,7 @@ header{
     background: #031355;
 }
 
-h1,h2 {
+h1 {
     font-family: roboto serif, sans-serif;
     text-transform: uppercase;
     color: black;
