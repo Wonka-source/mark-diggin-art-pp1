@@ -27,6 +27,11 @@ body{
     position: relative;
 }
 
+.hero-2{
+    background:url(../images/layout/h7.jpg) 
+}
+
+
 /*logo nav bar header*/
 
 header{
