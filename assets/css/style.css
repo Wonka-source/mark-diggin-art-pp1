@@ -89,6 +89,7 @@ h1 {
 
 .about-img{
     float: left;
+    max-width: 500px;
 }
 
 
@@ -99,6 +100,7 @@ h1 {
 .footer{
     background-color: rgb(220,220,220);
     border-top: black solid 0.5px;
+    clear: both;
 }
 
 .socialmedia, .copyr-origin-contact{
