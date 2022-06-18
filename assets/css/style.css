@@ -85,13 +85,26 @@ h1 {
     border-block: 1px solid white;
 }
 
+.block{
+    margin-top: 120px;
+    margin-bottom: 150px;
+}
+
 /*about page*/
+
+
 
 .about-img{
     float: left;
-    max-width: 500px;
+    max-width: 300px;
+    margin-left: 10%;
+    margin-right: 20px;
+
 }
 
+.about {
+    display:flexbox;
+}
 
 
 
