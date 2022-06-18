@@ -27,7 +27,11 @@ body{
     position: relative;
 }
 
-/*logo and nav bar*/
+/*logo nav bar header*/
+
+header{
+    background: #031355;
+}
 
 h1,h2 {
     font-family: roboto serif, sans-serif;
@@ -46,8 +50,29 @@ h1,h2 {
 
 .welcome-logo a{
     color: white;
+    text-decoration: none;
 }
 
-header{
-    background: #031355;
+.nav-bar{
+    /* font-size: 110%;     */
+}
+
+.nav-bar li{
+    display: inline-flex;
+    line-height: 75px;
+    letter-spacing: 4px;
+    width: 110px;
+}
+
+.nav-bar a{
+    color: white;
+    text-decoration: none;
+}
+
+.nav-bar a:hover{
+    border-block: 1px solid white;
+}
+
+.active {
+    border-block: 1px solid white;
 }
