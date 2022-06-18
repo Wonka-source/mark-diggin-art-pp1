@@ -85,6 +85,15 @@ h1 {
     border-block: 1px solid white;
 }
 
+/*about page*/
+
+.about-img{
+    float: left;
+}
+
+
+
+
 /*footer*/
 
 .footer{
