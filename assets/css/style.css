@@ -188,6 +188,16 @@ input[type=submit] {
     cursor: pointer;
 }
 
+/*contact form successful submission page*/
+
+.submission-successful{
+    text-align: center;
+}
+.green-tick{
+    font-size: 300%;
+    color: green;
+}
+
 /*footer*/
 
 .footer{
