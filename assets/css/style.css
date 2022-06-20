@@ -14,35 +14,35 @@
 
 body{
     font-family: roboto, sans-serif;
-    font-weight: 300;
-    color: #3a3a3a;
+    /* font-weight: 300;
+    color: black; */
 }
 
 /* hero image*/
 
+
 .hero-home {
     background: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.5)), url(../images/layout/hero.jpg) no-repeat center center;
     height: 35.7rem;
-    background-size: cover;
-    /* position: relative; */
+    background-size: cover;    
 }
 
 .hero-2{
-    background:linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.5)), url(../images/layout/h7.jpg); 
+    background:linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.5)), url(../images/layout/h7.jpg)no-repeat center center;
     height:6.5rem;
-    background-size: cover;
-    /* position: relative; */
+    background-size: cover;    
 }
 
 
 /*logo nav bar header*/
+
 
 header{
     background: #031355;
 }
 
 h1 {
-    font-family: roboto serif, sans-serif;
+    font-family: roboto, sans-serif;
     text-transform: uppercase;
     color: black;
 }
@@ -233,6 +233,11 @@ input[type=submit] {
 
 
 @media screen and (max-width: 1070px){
+    header{
+        text-align: center;
+        position: relative;
+
+    }
     .hero-home{
         background: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.5)), url(/assets/images/layout/hero_1000px.jpg) 
         no-repeat center center;
@@ -256,21 +261,38 @@ input[type=submit] {
     }
 }
 
-@media screen and (max-width:550px){
-    .welcome-logo{
-        font-size: 160%;
-        padding-bottom: 4%;
-    }
-    h1{
-        font-size: 150%;
-    }
+@media screen and (max-width:740px){
     header{
-        text-align:center;
+        text-align: center;
+        position: relative;
+
     }
     .nav-bar li{
-        line-height: 37.5px;
+        
+        line-height: 50px;
         letter-spacing: 4px;
         
 
     }
 }
+
+@media screen and (max-width:550px){
+    .welcome-logo{
+        font-size: 140%;
+        padding-bottom: 4%;
+    }
+    h1{
+        font-size: 150%;
+    }
+
+    }
+
+    @media screen and (max-width:455px){
+        .welcome-logo{
+            font-size: 120%;
+        }
+        .nav-bar li{
+            letter-spacing: 3px;
+            line-height: 37.5px;
+        }
+    }
