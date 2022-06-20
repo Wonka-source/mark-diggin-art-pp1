@@ -191,6 +191,7 @@ input[type=submit] {
 /*contact form successful submission page*/
 
 .submission-successful{
+    font-size: xx-large;
     text-align: center;
 }
 .green-tick{
@@ -226,3 +227,5 @@ input[type=submit] {
 .copyr-origin-contact > li {
     padding-bottom: 1.35%;
 }
+
+
