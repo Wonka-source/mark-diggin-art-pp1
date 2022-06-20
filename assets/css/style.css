@@ -255,3 +255,15 @@ input[type=submit] {
         padding-bottom: 4%;
     }
 }
+
+@media screen and (max-width:550px){
+    .welcome-logo{
+        font-size: 160%;
+        padding-bottom: 4%;
+    }
+    h1{
+        font-size: 150%;
+    }
+
+    
+}
