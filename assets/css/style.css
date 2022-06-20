@@ -92,6 +92,24 @@ h1 {
     margin-bottom: 250px;
 }
 
+/*main section of the home page*/
+
+.home-boxes{
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.box{
+    margin: 0 auto;
+    margin: 0.5em;
+    height: 400px;
+}
+
+
+
+
+
 /*about page*/
 
 
