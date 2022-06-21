@@ -61,10 +61,6 @@ h1 {
     text-decoration: none;
 }
 
-.nav-bar{
-    /* font-size: 110%;     */
-}
-
 .nav-bar li{
     display: inline-flex;
     line-height: 75px;
