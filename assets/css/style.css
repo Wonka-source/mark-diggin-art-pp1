@@ -62,12 +62,16 @@ h1 {
 
 .nav-bar{
     text-align: center;
+    
 }
 
 .nav-bar li{
+    font-size: 130%;
+    margin-left: 1%;
+    margin-right: 1%;
     display: inline-flex;
     line-height: 75px;
-    letter-spacing: 4px;
+    letter-spacing: 5px;
     width: 110px;
 }
 
