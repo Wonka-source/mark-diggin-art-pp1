@@ -211,6 +211,7 @@ h1 {
 
 .form-section h2{
     text-align: center;
+    font-size: 190%;
 }
 
 input[type=text], select, textarea, #email{
@@ -230,9 +231,12 @@ input[type=submit] {
     padding: 12px 20px;
     border: none;
     border-radius: 4px;
-    cursor: pointer;
+    cursor: pointer;   
+    text-transform: uppercase;
 }
-
+input[type=submit]:first-letter {
+    text-transform: uppercase;
+}
 /*contact form successful submission page*/
 
 .submission-successful{
