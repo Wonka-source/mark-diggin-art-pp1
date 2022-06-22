@@ -248,6 +248,8 @@ input[type=submit] {
     background-color: rgb(220,220,220);
     border-top: black solid 0.5px;
     clear: both;
+    padding-top: 7.5px;
+    padding-bottom: 10px;
 }
 
 .socialmedia, .copyr-origin-contact{
