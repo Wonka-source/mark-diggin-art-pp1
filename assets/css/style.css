@@ -209,6 +209,10 @@ h1 {
     max-width: 800px;
 }
 
+.form-section h2{
+    text-align: center;
+}
+
 input[type=text], select, textarea, #email{
     width: 100%;
     padding: 12px;
@@ -287,9 +291,7 @@ input[type=submit] {
     color: #3a3a3a;
 }
 
-.copyr-origin-contact > li {
-    padding-bottom: 1.35%;
-}
+
 
 /*responcive rules for smaller screens*/
 @media screen and (max-width: 1155px){
