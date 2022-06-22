@@ -230,6 +230,11 @@ input[type=submit] {
     text-align: center;
 }
 
+.video > p {
+    font-style: italic;
+    font-weight: 150;
+}
+
 .iframe-1{
     width: 550;
 }
