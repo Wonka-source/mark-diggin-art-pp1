@@ -6,7 +6,7 @@
     border: none;
     margin-left: auto;
     margin-right: auto;
-    max-width: 2500px;
+    max-width: 2000px;
 }
 
 
@@ -235,11 +235,7 @@ input[type=submit] {
 /*responcive rules for smaller screens*/
 
 @media screen and (max-width: 1070px){
-    header{
-        text-align: center;
-        position: relative;
 
-    }
     .hero-home{
         background: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.5)), url(/assets/images/layout/hero_1000px.jpg) 
         no-repeat center center;
@@ -264,11 +260,7 @@ input[type=submit] {
 }
 
 @media screen and (max-width:740px){
-    header{
-        text-align: center;
-        position: relative;
 
-    }
     .nav-bar li{
         
         line-height: 50px;
