@@ -9,7 +9,10 @@
     max-width: 2000px;
 }
 
-
+html{
+    position: relative;
+    min-height: 100%;
+}
 
 
 body{
@@ -93,8 +96,8 @@ h1 {
 /*main tag class'es for each page*/
 
 .block{
-    margin-top:0;
-    margin-bottom: 0;
+    margin-top:25px;
+    margin-bottom: 100px;
     /* background: #0857A5 ; */
     padding-bottom: 50px;
     padding-top: 50px;
@@ -102,7 +105,7 @@ h1 {
 
 .block-2{
     margin-top:0;
-    margin-bottom: 0;
+    margin-bottom: 100px;
     padding-bottom: 50px;
     padding-top: 5px;
 }
@@ -255,9 +258,14 @@ input[type=submit] {
 /*footer*/
 
 .footer{
+    position: absolute;
+    left: 0;
+    width: 100%;
+    bottom: 0;
     background-color: rgb(220,220,220);
     border-top: black solid 0.5px;
-    clear: both;
+    /* clear: both; */
+    margin-top: 50px;
     padding-top: 7.5px;
     padding-bottom: 10px;
 }
