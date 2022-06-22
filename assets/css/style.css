@@ -68,7 +68,7 @@ h1 {
 .nav-bar li{
     margin-top: 1px;
     margin-bottom: 1px;
-    font-size: 130%;
+    font-size: 120%;
     margin-left: 1%;
     margin-right: 1%;
     display: inline-flex;
@@ -119,6 +119,10 @@ h1 {
     width: auto;
     border: 10px ridge #fafafa;   
     
+}
+
+.title h2{
+    font-size: 150%;
 }
 
 
