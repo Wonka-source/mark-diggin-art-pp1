@@ -139,7 +139,7 @@ h1 {
 .about-img1{
     float: left;
     max-width: 500px;
-    margin-left: 10%;
+    margin-left: 20%;
     margin-right: 20px;
     padding-right: 2%;
     padding-bottom: 4%;
@@ -163,10 +163,13 @@ h1 {
 
 .paragraph{
     font-size: 130%;
-    max-width: 70%;
-    word-spacing: 4px;
+    max-width: 40%;
+    word-spacing: 8px;
 }
-
+.paragraph a{
+    text-decoration: none;
+    color: blue;
+}
 /*main section of the gallery page*/
 
 .img-gallery{
