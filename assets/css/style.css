@@ -66,6 +66,8 @@ h1 {
 }
 
 .nav-bar li{
+    margin-top: 1px;
+    margin-bottom: 1px;
     font-size: 130%;
     margin-left: 1%;
     margin-right: 1%;
@@ -290,7 +292,7 @@ input[type=submit] {
 
     }
     .nav-bar li{
-        
+        margin: 2px;
         line-height: 50px;
         letter-spacing: 4px;
         
@@ -314,6 +316,8 @@ input[type=submit] {
             font-size: 120%;
         }
         .nav-bar li{
+            font-size: 110%;
+            
             letter-spacing: 3px;
             line-height: 37.5px;
         
