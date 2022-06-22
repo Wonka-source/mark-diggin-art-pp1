@@ -235,6 +235,9 @@ input[type=submit] {
 /*responcive rules for smaller screens*/
 
 @media screen and (max-width: 1070px){
+    .welcome-logo{
+        position: sticky;
+    }
     header{
         text-align: center;
         position: relative;
