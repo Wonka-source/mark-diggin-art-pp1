@@ -48,7 +48,6 @@ h1 {
 }
 
 .welcome-logo{
-    position: sticky;
     top: 90%;
     font-size: 2em;
     margin-left: 10px;
@@ -59,6 +58,10 @@ h1 {
 .welcome-logo a{
     color: white;
     text-decoration: none;
+}
+
+.nav-bar{
+    text-align: center;
 }
 
 .nav-bar li{
