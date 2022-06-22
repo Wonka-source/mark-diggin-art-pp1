@@ -84,12 +84,19 @@ h1 {
     border-block: 1px solid white;
 }
 
-/*main section class for each page*/
+/*main section class'es for each page*/
 
 .block{
-    margin-top: 120px;
-    margin-bottom: 250px;
+    margin-top:0;
+    margin-bottom: 0;
+    /* background: #0857A5 ; */
+    padding-bottom: 200px;
+    padding-top: 200px;
 }
+
+/* .gallery-block{
+    background: #1380D6 ;
+} */
 
 /*main section of the home page*/
 
@@ -102,9 +109,9 @@ h1 {
 .box{
     margin: 0 auto;
     margin: 0.5em;
-    height: 17rem;
+    height: 20vw;
     width: auto;
-   
+    border: 10px ridge #fafafa;   
 }
 
 
