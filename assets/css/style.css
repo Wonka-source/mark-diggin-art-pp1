@@ -136,18 +136,17 @@ h1 {
 
 
 
-.about-img1{
-    float: left;
+.about-img{
+    height: 37.5rem;
+    /* float: left; */
     max-width: 500px;
-    margin-left: 20%;
-    margin-right: 20px;
+    /* margin-left: 20%; */
+    /* margin-right: 20px; */
     padding-right: 2%;
-    padding-bottom: 4%;
+    /* padding-bottom: 4%; */
 }
 
-.about-img2{
-    width: 0%;
-}
+
 
 /* .about {
     display:flexbox;
@@ -161,12 +160,23 @@ h1 {
     margin-bottom: 1%;
 }
 
-.paragraph{
+.about-wrapper{
+
+    display: flex;
     font-size: 130%;
-    max-width: 40%;
-    word-spacing: 8px;
+    max-width: 1201px;
+    /* flex-direction: column;  */
+   /*  word-spacing: 8px; */
+    /* line-height: 10; */
 }
-.paragraph a{
+
+.about-wrapper p{
+    line-height: 30px;
+    text-align: justify;
+    width: 700px;
+}
+
+.about-wrapper p a{
     text-decoration: none;
     color: blue;
 }
@@ -275,19 +285,19 @@ input[type=submit] {
 
 /*responcive rules for smaller screens*/
 @media screen and (max-width: 1155px){
-.about-img1{
-    width: 0%;        
+    .about-wrapper{
+        flex-direction: column;
+    
+    }
+.about-img{
+    height: 55vw;
 }
-
-.about-img2{
-    text-align: center;
-    width: 70%;
-    margin-left: 15%;
-    margin-right: 20px;
-    padding-right: 2%;
-    padding-top: 2%;
-    padding-bottom: 4%;
-}
+.about-wrapper p{
+    width: 70vw;
+    margin-top: 10px;
+    /* line-height: 40px; */
+    font-size: 90%;
+    justify-content: center;
 }
 @media screen and (max-width: 1070px){
     .welcome-logo{
