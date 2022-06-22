@@ -39,8 +39,6 @@ body{
 
 header{
     background: #031355;
-    text-align: center;
-    position: relative
 }
 
 h1 {
@@ -103,7 +101,6 @@ h1 {
     margin: 0.5em;
     height: 17rem;
     width: auto;
-    /* border: 40px ridge  lightblue; */
    
 }
 
@@ -235,7 +232,11 @@ input[type=submit] {
 /*responcive rules for smaller screens*/
 
 @media screen and (max-width: 1070px){
+    header{
+        text-align: center;
+        position: relative;
 
+    }
     .hero-home{
         background: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.5)), url(/assets/images/layout/hero_1000px.jpg) 
         no-repeat center center;
@@ -260,7 +261,11 @@ input[type=submit] {
 }
 
 @media screen and (max-width:740px){
+    header{
+        text-align: center;
+        position: relative;
 
+    }
     .nav-bar li{
         
         line-height: 50px;
