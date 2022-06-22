@@ -112,6 +112,7 @@ h1 {
     height: 20vw;
     width: auto;
     border: 10px ridge #fafafa;   
+    
 }
 
 
@@ -258,6 +259,11 @@ input[type=submit] {
         background-size: cover;
         position: static;
     }
+    .box{
+        height: 50vw;
+        justify-content: space-between;
+        
+    }
     .about-img1{
         width: 0%;        
     }
@@ -308,9 +314,5 @@ input[type=submit] {
             line-height: 37.5px;
         
     }
-    .box{
-        height: 70vw;
-        justify-content: space-between;
-        
-    }
+
 }
