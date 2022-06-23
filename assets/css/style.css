@@ -38,6 +38,10 @@ body {
 /*logo nav bar header*/
 
 
+header {
+    
+}
+
 h1 {
     font-family: roboto, sans-serif;
     text-transform: uppercase;
@@ -59,6 +63,7 @@ h1 {
 
 .nav-bar {
     text-align: center;
+    background: #031355;
 
 }
 
