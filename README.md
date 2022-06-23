@@ -126,41 +126,41 @@ In the future, I would like to add a feature that allows the user to view the ar
 # .
 
 ## Tests that were run on just the contact page
-- Test label  **Full name required **
+- Test label  **Full name required**
  - Test action **Leave full name section blank on the form**
  - Expected outcome **"Please fill in this field pop up**
  - Test outcome **Pass**
 # .
 
-- Test label  **Subject required **
+- Test label  **Subject required**
  - Test action **Leave subject section blank on the form**
  - Expected outcome **"Please fill in this field pop up**
  - Test outcome **Pass**
 # .
-- Test label  **Email required **
+- Test label  **Email required**
  - Test action **Leave email section blank on the form**
  - Expected outcome **"Please fill in this field pop up**
  - Test outcome **Pass**
 # .
-- Test label  **Include @ **
+- Test label  **Include @**
  - Test action **Leave out @ in email section**
  - Expected outcome **"Please include @ pop up**
  - Test outcome **Pass**
 # .
-- Test label  **Message required **
+- Test label  **Message required**
  - Test action **Leave message section blank**
  - Expected outcome **"Please fill in this field pop up**
  - Test outcome **Pass**
 # .
-- Test label  **Completed form **
- - Test action **Fill out the form completely **
+- Test label  **Completed form**
+ - Test action **Fill out the form completely**
  - Expected outcome **"Load submission-sucessful.html**
  - Test outcome **Pass**
 # .
 ## This test was run on only submission-sucessful.html
-- Test label  **Play video **
+- Test label  **Play video**
  - Test action **Play video**
- - Expected outcome **"Video plays **
+ - Expected outcome **"Video plays**
  - Test outcome **Pass**
 # .
 ## Browsers and Devices
