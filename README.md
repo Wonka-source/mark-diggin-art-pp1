@@ -1,108 +1,191 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Daniel Diggin
 
-Welcome Wonka-source,
+## Mark Diggin Art
+A website for an Irish artist from Co. Wicklow Ireland. This website is to promote the  
+of the artworks of Irish artist Mark Diggin.    
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+[View deployed site here](https://wonka-source.github.io/mark-diggin-art-pp1/)
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+![Am I responcive](other-files/am-i-responcive.jpg)
 
-## Gitpod Reminders
+## UX
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+### Strategy
+My goal in the design was to make a functioning website with easy access to all the information available in a user-friendly format.
 
-`python3 -m http.server`
+### Scope
+For the user, I wanted them to be able to browse through the different works created by the artist, learn a summary of his background with the option to contact him and have an opportunity to sign up for a newsletter to keep up to date with the artist's current happenings. 
 
-A blue button should appear to click: _Make Public_,
+### Structure
+The site is made of four main pages starting with the home as the main site navigation hub, from there the user is able to browse to the about section to get a summery of the artist. Using the navigation bar the user can browse to the gallery page to view the artists artworks. Then the final page is a contact form where the user can interact with the artist and sign up for the newsletter.
 
-Another blue button should appear to click: _Open Browser_.
+### Skeleton
+[Home](other-files/mark-diggin-art%20-home-page.jpg)
+[About](other-files/mark-diggin-art-about.jpg)
+[Gallery](/other-files/mark-diggin-art-rtwork.jpg)
+[Contact](/other-files/mark-diggin-art-contact..jpg)
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+### Surface
+The primary colors used were #031355 for the navigation bar and #DCDCDC for the footer, with the rest in white. I chose these colors as they complement the hero image and do not clash with any colors from the paintings displayed on the gallery page while keeping the content legible.
 
-A blue button should appear to click: _Make Public_,
+![Blue](other-files/nav-bar-color.jpg)
 
-Another blue button should appear to click: _Open Browser_.
+![Grey](other-files/footer-color.jpg)
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+### Technologies
+1. HTML
+2. CSS
 
-To log into the Heroku toolbelt CLI:
+### Features
+This site features a navigation bar, a gallery, a home menu page, links to social media, a contact form,  a you-tube video and links to external resources.
+### Features Left to Implement
+In the future, I would like to add a feature that allows the user to view the art in a virtual sitting/room hall or bedroom to get an idea of how it may look, along with the ability to purchase off the site.
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+## Testing
+##  Tests that were run on all pages
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+ - Test label  **Logo link**
+ - Test action **Click on logo**
+ - Expected outcome **Load home page**
+ - Test outcome **Pass**
+# .
+- Test label  **Nav home**
+ - Test action **Click on home on the navigation  bar**
+ - Expected outcome **Load home page**
+ - Test outcome **Pass**
+# .
+- Test label  **Nav about**
+ - Test action **Click on about on the  navigation bar**
+ - Expected outcome **Load about page**
+ - Test outcome **Pass**
+# .
+- Test label  **Nav gallery**
+ - Test action **Click on gallery on the  navigation bar**
+ - Expected outcome **Load gallery page**
+ - Test outcome **Pass**
+# .
+- Test label  **Nav contact**
+ - Test action **Click on contact on the navigation bar**
+ - Expected outcome **Load contact page**
+ - Test outcome **Pass**
+# .
+- Test label  **Facebook Icon**
+ - Test action **Click on Facebook Icon**
+ - Expected outcome **Load Facebook page opens in a new tab**
+ - Test outcome **Pass**
+# .
+- Test label  **Instagram Icon**
+ - Test action **Click on Instagram Icon**
+ - Expected outcome **Load  Instagram  page opens in a new tab**
+ - Test outcome **Pass**
+# .
+- Test label  **Twitter Icon**
+ - Test action **Click on Twitter Icon**
+ - Expected outcome **Load Twitter page opens in a new tab**
+ - Test outcome **Pass**
+# .
+## Tests run on just the home page
 
-------
+- Test label  **About Mark**
+ - Test action **Click on About Mark Image**
+ - Expected outcome **Go to the about page**
+ - Test outcome **Pass**
+# .
+- Test label  **Gallery/Artworks**
+ - Test action **Click on Gallery/Artworks Image**
+ - Expected outcome **Go to the gallery page**
+ - Test outcome **Pass**
+# .
+- Test label  **Contact Mark**
+ - Test action **Click on Contact Mark Image**
+ - Expected outcome **Go to the contact page**
+ - Test outcome **Pass**
+# .
 
-## Release History
+## Tests that were run on just the about page
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+- Test label  **Kilmantin arts gallery**
+ - Test action **Click on Kilmantin arts gallery link**
+ - Expected outcome **Open kilmantin arts gallery in a new tab**
+ - Test outcome **Pass**
+# .
+- Test label  **Signal arts**
+ - Test action **Click on signal arts center**
+ - Expected outcome **Go to the signal arts centers page in a new tab**
+ - Test outcome **Pass**
+# .
+- Test label  **Peoples art**
+ - Test action **Click on peoples art link**
+ - Expected outcome **Go to the peoples art website opens in a new tab**
+ - Test outcome **Pass**
+# .
+- Test label  **Contact Mark**
+ - Test action **Click on Contact Mark Image**
+ - Expected outcome **Go to the contact page**
+ - Test outcome **Pass**
+# .
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+## Tests that were run on just the contact page
+- Test label  **Full name required **
+ - Test action **Leave full name section blank on the form**
+ - Expected outcome **"Please fill in this field pop up**
+ - Test outcome **Pass**
+# .
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+- Test label  **Subject required **
+ - Test action **Leave subject section blank on the form**
+ - Expected outcome **"Please fill in this field pop up**
+ - Test outcome **Pass**
+# .
+- Test label  **Email required **
+ - Test action **Leave email section blank on the form**
+ - Expected outcome **"Please fill in this field pop up**
+ - Test outcome **Pass**
+# .
+- Test label  **Include @ **
+ - Test action **Leave out @ in email section**
+ - Expected outcome **"Please include @ pop up**
+ - Test outcome **Pass**
+# .
+- Test label  **Message required **
+ - Test action **Leave message section blank**
+ - Expected outcome **"Please fill in this field pop up**
+ - Test outcome **Pass**
+# .
+- Test label  **Completed form **
+ - Test action **Fill out the form completely **
+ - Expected outcome **"Load submission-sucessful.html**
+ - Test outcome **Pass**
+# .
+## This test was run on only submission-sucessful.html
+- Test label  **Play video **
+ - Test action **Play video**
+ - Expected outcome **"Video plays **
+ - Test outcome **Pass**
+# .
+## Browsers and Devices
+This site was tested across multiple browsers ie. Chrome, Firefox, Edge, Opera, Brave and Edge.
+The site was also tested on multiple mobile devices iPhone 6, 7, 12pro, iPad, Samsung Galaxy and Alcatel one plus to ensure compatibility and responsiveness. 
+## Other tests
+[W3C CSS](other-files/w3c%20CSS.jpg)
+[W3C HTML](other-files/w3c%20html.jpg)
+![The Lighthouse Test](other-files/the-lighthouse-test.jpg)
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+## Deployment
+The site is hosted using GitHub Pages and deployed directly from the master branch. The deployed site will update automatically upon new commits to the master branch. For the site to deploy correctly on GitHub pages, the home page must be named index.html.
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+To run locally, you can clone this repository directly into the editor of your choice by pasting "git clone https://github.comWonka-source/**mark-diggin-art-pp1.**git" into your terminal.
+## Credits
+### Content
+Content in the about section came from an interview with the artist.
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+### Media 
+All photos were submitted to me by the artist himself, the video that plays on the submission-successful.html page came from [Pervaneh Matthews You Tube channel](https://www.youtube.com/user/pervanehmatthews)
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
-
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
-
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
-------
-
-## FAQ about the uptime script
-
-**Why have you added this script?**
-
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
-
-**How will this affect me?**
-
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
-
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
-
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
-
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
-
----
-
-Happy coding!
+### Acknowledgements
+The gallery arrangement i found on stack overflow [here](https://stackoverflow.com/questions/56103364/zigzag-order-using-grid-template-columns-repeatauto-fit-minmax10em-1fr)
+The form was done through following lessons from [Code Institute](https://codeinstitute.net/ie/)
+I'd like to thank my mentor Brian Macharia for guiding me along the way. 
+**This site was made for educational purposes**
